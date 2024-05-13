@@ -1,5 +1,5 @@
 import { CarShoping } from '../../CarShoping/CarShoping'
-// import {img} from '../../../../public/Images/nick-nice-gPm8h3DS1s4-unsplash.jpg'
+import {img} from '../../../assets/Images/nick-nice-gPm8h3DS1s4-unsplash.jpg'
 
 
 export const Header = () => {
@@ -15,7 +15,7 @@ export const Header = () => {
               </ul>
 
             </div>
-            <div  className=" h-screen bg-contain bg-center bg-[url('../../../../public/Images/nick-nice-gPm8h3DS1s4-unsplash.jpg')] flex flex-col justify-center items-center	">
+            <div  className=" h-screen bg-contain bg-center bg-[url('../../../assets/Images/nick-nice-gPm8h3DS1s4-unsplash.jpg')] flex flex-col justify-center items-center	">
                 <div className='flex flex-col items-center bg-white/20 p-10'>
                   <h1 className=' animate-jump-in text-7xl font-title3 tracking-wide text-lime-50'>BIENVENIDO</h1>
                   <h2 className='animate-jump-in font-title2 text-2xl text-lime-50'>santiago shop</h2>
