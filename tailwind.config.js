@@ -5,6 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily:{
+      title:['Bebas Neue'],
+      title2:['Major Mono Display'],
+      title3:['Sofia Sans Extra Condensed']
+    }
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }
