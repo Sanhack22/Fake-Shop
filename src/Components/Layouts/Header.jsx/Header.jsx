@@ -1,5 +1,4 @@
 import { CarShoping } from '../../CarShoping/CarShoping'
-import {img} from '../../../assets/Images/nick-nice-gPm8h3DS1s4-unsplash.jpg'
 
 
 export const Header = () => {

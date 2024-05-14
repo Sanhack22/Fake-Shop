@@ -1,6 +1,6 @@
-import { useState,useEffect, useContext } from "react"
+import { useState, useContext } from "react"
 import { shopContext } from "../Context/Context"
-
+import {CardCar} from "../CardCar/CardCar"
 
 
 export const CarShoping = () => {
@@ -20,7 +20,12 @@ export const CarShoping = () => {
         <div className="bg-white h-1 fixed">
           <div>
             {shop.CarProducts.map(x=>
-              Card
+            <CardCar key={x.id}
+              image={x.image}
+              title={x.title}
+            />
+
+            
             )}
           </div>
         </div>

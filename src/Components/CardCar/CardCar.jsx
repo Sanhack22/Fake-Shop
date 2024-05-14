@@ -1,8 +1,8 @@
 import React from 'react'
 
-export const CardCar = ({image,title,id}) => {
+export const CardCar = ({image,title}) => {
   return (
-    <div key={id}>
+    <div>
         <img src={image}/>
         <h2>{title}</h2>
     </div>
