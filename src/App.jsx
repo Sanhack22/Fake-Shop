@@ -32,9 +32,8 @@ function App() {
           />
         )
       }
-      <Card
-      
-      />
+     
+
      </Main>
     </>
   )
